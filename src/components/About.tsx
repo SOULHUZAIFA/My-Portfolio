@@ -6,9 +6,9 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+        Security Software Developer with 2+ years at HP specializing in firmware protection, TPM integration, and secure DevOps automation. 
+        Delivered a 45% increase in vulnerability detection and enhanced endpoint security through cryptographic verification and CI/CD security integrations. 
+        Adept at static/dynamic code analysis, penetration testing, and implementing enterprise-grade security controls.
         </p>
       </div>
     </div>

@@ -8,7 +8,7 @@ import {
   Physics,
   RigidBody,
   CylinderCollider,
-  RapierRigidBody,
+  RigidBodyApi,
 } from "@react-three/rapier";
 
 const textureLoader = new THREE.TextureLoader();
@@ -45,7 +45,7 @@ function SphereGeo({
   material,
   isActive,
 }: SphereProps) {
-  const api = useRef<RapierRigidBody | null>(null);
+  const api = useRef<RigidBodyApi>(null);
 
   useFrame((_state, delta) => {
     if (!isActive) return;
@@ -97,7 +97,7 @@ type PointerProps = {
 };
 
 function Pointer({ vec = new THREE.Vector3(), isActive }: PointerProps) {
-  const ref = useRef<RapierRigidBody>(null);
+  const ref = useRef<RigidBodyApi>(null);
 
   useFrame(({ pointer, viewport }) => {
     if (!isActive) return;
