@@ -55,8 +55,8 @@ const Work = () => {
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>Volleyball Tournament Management Module</h4>
+                    <a href="https://vball.burhanisportsclub.com">Web Application</a>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
