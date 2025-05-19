@@ -48,23 +48,65 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Volleyball Tournament Management Module</h4>
-                    <a href="https://vball.burhanisportsclub.com">Web Application</a>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>Volleyball Tournament Management</h4>
+                  <a href="https://vball.burhanisportsclub.com">Web Application</a>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>Javascript, TypeScript, React, Threejs</p>
             </div>
-          ))}
+            <WorkImage image="/images/vball.png" alt="Volleyball Tournament App" />
+          </div>
+
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>Portfolio Website</h4>
+                  <a href="https://www.huzaifaambakhutwala.com/#">Web Application</a>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, TypeScript, Three.js, GSAP, Vite</p>
+            </div>
+            <WorkImage image="/images/portfolio.png" alt="Portfolio Website" />
+          </div>
+
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>E-Commerce Platform</h4>
+                  <a href="#">Web Application</a>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, Node.js, MongoDB, Express</p>
+            </div>
+            <WorkImage image="/images/ecommerce.png" alt="E-Commerce Platform" />
+          </div>
+
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>04</h3>
+                <div>
+                  <h4>Task Management System</h4>
+                  <a href="#">Web Application</a>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, TypeScript, Firebase, Material-UI</p>
+            </div>
+            <WorkImage image="/images/task.png" alt="Task Management System" />
+          </div>
         </div>
       </div>
     </div>
