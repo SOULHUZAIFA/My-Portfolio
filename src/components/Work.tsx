@@ -90,7 +90,7 @@ const Work = () => {
               <h4>Tools and features</h4>
               <p>React, Node.js, MongoDB, Express</p>
             </div>
-            <WorkImage image="/images/ecommerce.png" alt="E-Commerce Platform" />
+            <WorkImage image="/images/placeholder.webp" alt="E-Commerce Platform" />
           </div>
 
           <div className="work-box">
@@ -105,7 +105,7 @@ const Work = () => {
               <h4>Tools and features</h4>
               <p>React, TypeScript, Firebase, Material-UI</p>
             </div>
-            <WorkImage image="/images/task.png" alt="Task Management System" />
+            <WorkImage image="/images/placeholder.webp" alt="Task Management System" />
           </div>
         </div>
       </div>
